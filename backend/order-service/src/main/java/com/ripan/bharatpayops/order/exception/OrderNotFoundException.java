@@ -1,6 +1,7 @@
 package com.ripan.bharatpayops.order.exception;
 
-import org.hibernate.validator.constraints.UUID;
+
+import java.util.UUID;
 
 public class OrderNotFoundException extends RuntimeException {
     public OrderNotFoundException(UUID orderId) {
