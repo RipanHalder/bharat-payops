@@ -1,8 +1,14 @@
 package com.ripan.bharatpayops.order.entity;
 
+import jakarta.persistence.*;
+
+import java.math.BigDecimal;
+import java.time.Instant;
+import java.util.UUID;
+
 @Entity
 @Table(name = "orders")
-public class OrderEntity{
+public class OrderEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

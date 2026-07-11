@@ -1,5 +1,9 @@
 package com.ripan.bharatpayops.order.dto;
 
+import com.ripan.bharatpayops.order.entity.OrderEntity;
+
+import java.math.BigDecimal;
+
 public class OrderResponse {
 
     private String orderId;
