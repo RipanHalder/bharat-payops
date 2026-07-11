@@ -1,11 +1,11 @@
 services:
   postgres:
-    image: postgres:17
-    container_name: bharatpay-postgres
+    image: postgres:16
+    container_name: bharatpayops-postgres
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
       POSTGRES_DB: bharatpayops
+      POSTGRES_USER: bharatpayops_user
+      POSTGRES_PASSWORD: bharatpayops_pass
     ports:
       - "5432:5432"
     volumes:

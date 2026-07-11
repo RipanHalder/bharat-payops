@@ -1,0 +1,14 @@
+$kind: http-request
+description: ""
+url: http://localhost:8081/orders
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "customerId": "CUST-1001",
+        "merchantId": "MERCH-2001",
+        "amount": 1499.00,
+        "currency": "INR"
+    }
+order: 1783792413865

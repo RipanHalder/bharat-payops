@@ -1,0 +1,6 @@
+$kind: http-request
+name: Get Orders by OrderId
+description: ""
+url: http://localhost:8081/orders/4925ba60-6ee0-481f-8a68-f7f157a96e92
+method: GET
+order: 2356233634666013

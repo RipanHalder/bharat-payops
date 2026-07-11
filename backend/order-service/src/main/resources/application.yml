@@ -6,8 +6,8 @@ spring:
     name: order-service
   datasource:
     url: jdbc:postgresql://localhost:5432/bharatpayops
-    username: postgres
-    password: postgres
+    username: bharatpayops_user
+    password: bharatpayops_pass
 
   jpa:
     hibernate:
