@@ -1,4 +1,4 @@
-package com.ripan.payment_service;
+package com.ripan.bharatpayops.payment;
 
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.boot.testcontainers.service.connection.ServiceConnection;

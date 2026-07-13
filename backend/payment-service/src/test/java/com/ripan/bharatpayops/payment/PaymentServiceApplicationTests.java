@@ -1,4 +1,4 @@
-package com.ripan.payment_service;
+package com.ripan.bharatpayops.payment;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
